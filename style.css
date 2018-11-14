@@ -1,0 +1,64 @@
+body {
+    font-family: Isocpeur;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #140152;
+    height: 50px;
+    padding: 10px;
+}
+
+img {
+    width: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.content {
+    padding: 4px;
+    background: #140152;
+}
+
+.pic {
+    background: url(images/main.jpg) center center / cover no-repeat;
+    height: 750px;
+}
+
+.text {
+    padding: 30px 50px;
+    background: white;
+    color: #140152;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    background: #140152;
+    color: white;
+    padding: 20px 50px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.text-orange {
+    color: orange;
+}
