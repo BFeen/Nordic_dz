@@ -1,7 +1,8 @@
-body {
-    font-family: Isocpeur;
+* {
+    font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 .wrapper {
@@ -9,14 +10,17 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    background: #140152;
-    height: 50px;
+header {
+    display: flex;
+    background: #1E1944;
     padding: 10px;
+    align-items: center;
+    justify-content: start;
 }
 
-img {
-    width: 50px;
+.logo {
+    background: url(images/logo.png) center center / contain no-repeat;
+    padding: 20px;
 }
 
 a {
@@ -27,38 +31,94 @@ a {
     margin: 0 10px;
 }
 
-.content {
-    padding: 4px;
-    background: #140152;
+nav a:hover {
+    color: #FECB1D;
 }
 
 .pic {
+    display: flex;
     background: url(images/main.jpg) center center / cover no-repeat;
     height: 750px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}
+
+.connect {
+    margin: 10px auto;
+    width: 220px;
+    border-left: 7px solid #FECB1D;
+    height: 60px;
+    background: #1E1944;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-transform: lowercase;
+    line-height: 57px;
+}
+
+section {
+    padding: 4px;
+    background: #1E1944;
 }
 
 .text {
     padding: 30px 50px;
     background: white;
-    color: #140152;
+    color: #1E1944;
     font-size: 20px;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+.text p {
+    margin: 20px 0;
 }
 
-.footer {
-    background: #140152;
+h2 {
+    background: #1E1944;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    text-align: center;
+    padding: 10px;
+    width: 33.333%;
+    margin: 2px;
+    background-color: white;
+    color: #1E1944;
+}
+
+.icon {
+    width: 120px;
+}
+
+.line {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    border: 3px solid #FECB1D;
+}
+
+footer {
+    background: #1E1944;
     color: white;
     padding: 20px 50px;
 }
 
-h2 {
+h3 {
     margin: 0;
 }
 
 .text-orange {
-    color: orange;
+    color: #FECB1D;
 }
