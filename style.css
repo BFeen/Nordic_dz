@@ -1,12 +1,42 @@
 * {
-    font-family: Verdana, sans-serif;
+    font-family: "Arial narrow", sans-serif;
     margin: 0;
     padding: 0;
     border: none;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    background: #1E1944;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+
 .wrapper {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -23,15 +53,12 @@ header {
     padding: 20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
+.header-links {
     font-weight: bold;
-    margin: 0 10px;
+    font-size: 24px;
 }
 
-nav a:hover {
+a:hover {
     color: #FECB1D;
 }
 
@@ -43,23 +70,17 @@ nav a:hover {
     justify-content: center;
 }
 
-h1 {
-    font-size: 34px;
-    text-align: center;
-    color: white;
-}
-
 .connect {
-    margin: 10px auto;
-    width: 220px;
+    margin: 20px auto;
+    width: 200px;
     border-left: 7px solid #FECB1D;
-    height: 60px;
+    height: 50px;
     background: #1E1944;
     color: white;
     font-size: 24px;
     text-align: center;
     text-transform: lowercase;
-    line-height: 57px;
+    line-height: 47px;
 }
 
 section {
@@ -78,13 +99,6 @@ section {
     margin: 20px 0;
 }
 
-h2 {
-    background: #1E1944;
-    color: white;
-    text-align: center;
-    margin: 20px;
-}
-
 .flex-container {
     display: flex;
 }
@@ -99,26 +113,42 @@ h2 {
 }
 
 .icon {
-    width: 120px;
+    width: 140px;
 }
 
 .line {
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 20px auto;
     padding: 0;
-    border: 3px solid #FECB1D;
+    border: 2px solid #FECB1D;
 }
 
 footer {
+    display: flex;
     background: #1E1944;
     color: white;
     padding: 20px 50px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-h3 {
-    margin: 0;
+footer div {
+    width: 33.333%;
+}
+
+.footer-contacts p, li {
+    margin: 10px 0;
+}
+
+
+.footer-logo {
+    width: 100px;
 }
 
 .text-orange {
     color: #FECB1D;
+}
+
+.text-large {
+    font-size: 24px;
 }
