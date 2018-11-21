@@ -106,6 +106,7 @@ section {
 }
 
 .trips__item {
+    position: relative;
     box-sizing: border-box;
     text-align: center;
     padding: 10px;
@@ -115,15 +116,23 @@ section {
     color: #1E1944;
 }
 
-.icon {
-    width: 140px;
+.trips__item h3 {
+    margin: 35px 0;
 }
 
-.line {
+.trips__item h3:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
     width: 40%;
-    margin: 20px auto;
-    padding: 0;
+    margin: 15px auto;
     border: 2px solid #FECB1D;
+}
+
+.icon {
+    width: 140px;
 }
 
 footer {
