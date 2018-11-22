@@ -54,14 +54,30 @@ header {
     padding: 20px;
 }
 
-.header-links {
+.header-links a {
+    position: relative;
     font-weight: bold;
     font-size: 24px;
+    margin: 0 10px;
 }
 
-a:hover {
-    color: #FECB1D;
+.header-links a:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: white;
+    bottom: -3px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transition: 0.4s all;
 }
+
+.header-links a:hover:before {
+    width: 100%;
+}
+
 /* -----------------main---------------- */
 .pic {
     display: flex;
