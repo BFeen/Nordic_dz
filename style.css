@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     color: #1E1944;
-    font-size: 16px;
+    font-size: 24px;
     text-transform: uppercase;
     margin: 10px;
 }
@@ -87,8 +87,7 @@ header {
     justify-content: center;
 }
 
-.connect {
-    margin: 20px auto;
+.connect-btn {
     width: 200px;
 }
 
@@ -125,11 +124,12 @@ section {
     color: #1E1944;
 }
 
-.trips__item h3 {
+.trips__title {
+    font-size: 16px;
     margin: 35px 0;
 }
 
-.trips__item h3:after {
+.trips__title:after {
     content: "";
     display: block;
     position: absolute;
@@ -138,6 +138,33 @@ section {
     width: 40%;
     margin: 15px auto;
     border: 2px solid #FECB1D;
+}
+
+.trips__pic {
+    max-width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.moscow {
+    background-image: url(icons/moscow.png);
+}
+.europe {
+    background-image: url(icons/big-ben.png);
+}
+.africa {
+    background-image: url(icons/pyramids.png);
+}
+.n-america {
+    background-image: url(icons/north-america.png);
+}
+.s-america {
+    background-image: url(icons/south-america.png);
+}
+.australia {
+    background-image: url(icons/kangaroo.png);
 }
 
 .icon {
@@ -150,18 +177,16 @@ section {
     justify-content: center;
     border: 4px solid #1E1944;
     background: white;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
-.btn {
-    background-color: #1E1944;
-    border-left: 3px solid #FECB1D;
-    color: white;
-    padding: 10px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    text-transform: lowercase;
+.send-question h3 {
+    font-weight: 300;
+    text-transform: none;
+}
+
+.send-question__btn {
+    width: 250px;
 }
 
 /* --------------footer---------------- */
@@ -245,4 +270,16 @@ footer div {
 }
 .text-large {
     font-size: 24px;
+}
+
+.btn {
+    margin: 20px auto;
+    background-color: #1E1944;
+    border-left: 3px solid #FECB1D;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: lowercase;
 }
