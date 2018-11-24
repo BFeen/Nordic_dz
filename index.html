@@ -107,7 +107,7 @@
             <section class="send-question">
                 <div class="">
                     <h3>Отправьте нам вопрос, и мы ответим в ближайшее время.</h3>
-                    <div class="btn send-question__btn">отправить вопрос</div>
+                    <div class="btn btn-bordered">отправить вопрос</div>
                 </div>
             </section>
         </main>
@@ -134,9 +134,12 @@
     </div>
     <div class="popup">
         <form method="GET" action="" class="guess">
-            <input type="text" name="fio" placeholder="ФИО">
-            <input type="text" name="question" placeholder="Ваш вопрос">
-            <input class="btn" type="submit" value="Отправить">
+            <p class="text-large">Напишите нам:</p>
+            <input class="guess__input" type="text" name="fio" placeholder="ФИО">
+            <input class="guess__input" type="email" name="email" placeholder="Email">
+            <input class="guess__input" type="tel" name="tel" placeholder="Телефон">
+            <textarea class="guess__input" name="question" rows="5" placeholder="Ваше сообщение"></textarea>
+            <input class="btn btn-bordered" type="submit" value="Отправить вопрос">
         </form>
     </div>
 </body>
