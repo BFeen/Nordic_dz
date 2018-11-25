@@ -15,6 +15,7 @@ h1 {
     font-size: 34px;
     text-align: center;
     color: white;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -83,13 +84,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     position: relative;
     background: url(images/main.jpg) center center / cover no-repeat;
     height: 750px;
-}
-
-.connect-btn {
-    width: 200px;
 }
 
 .social {
@@ -199,14 +197,13 @@ section {
     background: white;
     padding: 40px 0;
 }
-
+.send-question div {
+    text-align: center;
+}
 .send-question h3 {
+    margin-bottom: 20px;
     font-weight: 300;
     text-transform: none;
-}
-
-.send-question__btn {
-    width: 250px;
 }
 
 /* --------------footer---------------- */
@@ -254,7 +251,7 @@ footer div {
     width: 400px;
     position: relative;
     border: 4px solid #FECB1D;
-    padding: 30px 20px;
+    padding: 30px 20px 15px;
     background-color: white;
 }
 .guess:before {
@@ -293,6 +290,7 @@ footer div {
 textarea {
     box-sizing: border-box;
     margin: 10px 0 0;
+    padding: 5px;
     width: 100%;
 }
 
@@ -313,14 +311,11 @@ textarea {
 }
 
 .btn {
-    margin: 20px auto;
-    background-color: #1E1944;
-    border-left: 3px solid #FECB1D;
     color: white;
-    padding: 10px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
+    background: #1E1944;
+    border-left: 3px solid #FECB1D;
+    padding: 10px 24px;
+    font-size: 22px;
     text-transform: lowercase;
 }
 
