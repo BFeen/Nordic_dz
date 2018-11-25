@@ -223,13 +223,17 @@ footer div {
     width: 33.333%;
 }
 
-.footer-contacts p, li {
+.footer__contacts p, li {
     margin: 10px 0;
 }
 
 
-.footer-logo {
+.footer__logo {
     width: 100px;
+}
+
+.footer__links a:hover {
+    color: #FECB1D;
 }
 
 /* --------- PopUp ------------ */
@@ -293,6 +297,14 @@ textarea {
 }
 
 /* ----------others------------- */
+.arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    background: url(icons/arrow-up.svg) center / contain no-repeat;
+    padding: 20px;
+}
 .text-orange {
     color: #FECB1D;
 }
