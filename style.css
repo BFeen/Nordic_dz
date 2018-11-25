@@ -81,14 +81,34 @@ header {
 /* -----------------main---------------- */
 .pic {
     display: flex;
-    background: url(images/main.jpg) center center / cover no-repeat;
-    height: 750px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    background: url(images/main.jpg) center center / cover no-repeat;
+    height: 750px;
 }
 
 .connect-btn {
     width: 200px;
+}
+
+.social {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.social__link {
+    padding: 20px;
+    background: center / contain no-repeat;
+}
+.vk {
+    background-image: url(icons/vk.svg);
+}
+.fb {
+    background-image: url(icons/facebook.svg);
+}
+.insta {
+    background-image: url(icons/instagram.svg);
 }
 
 section {
@@ -214,7 +234,7 @@ footer div {
 
 /* --------- PopUp ------------ */
 .popup {
-    display: flex;
+    display: none; 
     align-items: center;
     justify-content: center;
     position: fixed;
