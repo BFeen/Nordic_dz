@@ -195,12 +195,13 @@ section {
     justify-content: center;
     border: 4px solid #1E1944;
     background: white;
-    padding: 40px 0;
+    padding: 55px 0;
 }
 .send-question div {
     text-align: center;
 }
 .send-question h3 {
+    margin-top: 0;
     margin-bottom: 20px;
     font-weight: 300;
     text-transform: none;
@@ -235,7 +236,7 @@ footer div {
 
 /* --------- PopUp ------------ */
 .popup {
-    display: none; 
+    display: flex; 
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -264,7 +265,7 @@ footer div {
     top: -40px;
     margin: 0 auto;
 }
-.guess:after {
+/* .guess:after {
     content: "\2716";
     position: absolute;
     background-color: #FECB1D;
@@ -273,7 +274,33 @@ footer div {
     text-align: center;
     top: -20px;
     right: -15px;
+    cursor: pointer;
+} */
+.guess__close {
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #FECB1D;
+    cursor: pointer;
 }
+.close-stick {
+    background-color: black;
+    position: absolute;
+    height: 2px;
+    width: 35px;
+}
+.left {
+    transform: rotate(45deg);
+}
+.right {
+    transform: rotate(135deg);
+}
+
 .guess__input {
     color: #1E1944;
     border: 2px solid #FECB1D;

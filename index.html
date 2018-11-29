@@ -110,9 +110,9 @@
                 </div>
             </section>
             <section class="send-question">
-                <div class="">
+                <div>
                     <h3>Отправьте нам вопрос, и мы ответим в ближайшее время.</h3>
-                    <a href="#" class="btn btn-bordered">отправить вопрос</a>
+                    <a href="#" id="pop-open" class="btn btn-bordered">отправить вопрос</a>
                 </div>
             </section>
         </main>
@@ -137,7 +137,7 @@
             </div>
         </footer>
     </div>
-    <div class="popup">
+    <div class="popup" style="display: none;">
         <form method="GET" action="" class="guess">
             <p class="text-large">Напишите нам:</p>
             <input class="guess__input" type="text" name="fio" placeholder="ФИО">
@@ -145,8 +145,15 @@
             <input class="guess__input" type="tel" name="tel" placeholder="Телефон">
             <textarea class="guess__input" name="question" rows="5" placeholder="Ваше сообщение"></textarea>
             <input class="btn btn-bordered" type="submit" value="Отправить вопрос">
+            <div class="guess__close">
+                <div class="close-stick left"></div>
+                <div class="close-stick right"></div>
+            </div>
         </form>
     </div>
     <a class="arrow-up" href="#top"></a>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
