@@ -353,6 +353,53 @@ textarea {
     width: 100%;
 }
 
+/* ------------ attention cookies ------------ */
+
+.cookies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: -150px;
+    left: 0;
+    right: 0;
+    background: rgba(30, 25, 68, 0.9);
+    padding: 30px 0;
+}
+/* .cookies:after {
+    content: '\2716';
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 50px;
+    color: white;
+} */
+.cookies__icon {
+    width: 70px;
+}
+.cookies__text {
+    width: 40%;
+    margin: 0 50px; 
+    color: white;
+    font-size: 30px;
+}
+.cookies__btn {
+    border: 3px solid white;
+    background-color: orange;
+    color: white;
+    font-size: 26px;
+    padding: 7px 50px; 
+    cursor: pointer;
+}
+.cookies__close {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
 /* ----------others------------- */
 .arrow-up {
     position: fixed;

@@ -1,3 +1,14 @@
+// Появление предупреждения о куках
+$('.cookies').animate({
+    'bottom' : 0
+}, 500);
+//Закрытие предупреждения об использования куки
+$('.cookies__btn, .cookies__close').click(function() {
+    $('.cookies').animate({
+        'bottom' : -200
+    }, 500);
+});
+
 // Функции открытия-закрытия PopUp окна
 $('#pop-open').click(function() {
     $('.popup').toggle(true);
