@@ -125,7 +125,6 @@ section {
     color: #1E1944;
     font-size: 20px;
 }
-
 .text p {
     margin: 20px 0;
 }
@@ -135,11 +134,9 @@ section {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .trips__item p {
     display: none;
 }
-
 .trips__item {
     position: relative;
     box-sizing: border-box;
@@ -151,12 +148,10 @@ section {
     color: #1E1944;
     cursor: pointer;
 }
-
 .trips__title {
     font-size: 16px;
     margin: 35px 0;
 }
-
 .trips__title:after {
     content: "";
     display: block;
@@ -167,7 +162,6 @@ section {
     margin: 15px auto;
     border: 2px solid #FECB1D;
 }
-
 .trips__pic {
     max-width: 120px;
     height: 120px;
@@ -218,6 +212,7 @@ section {
     padding: 15px;
 }
 .faq__question {
+    font-size: 20px;
     background-color: #1E1944;
     color: white;
 }

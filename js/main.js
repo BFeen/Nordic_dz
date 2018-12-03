@@ -15,3 +15,17 @@ $('.faq__item').click(function() {
 $('.trips__item').click(function () {
     $(this).find('p').slideToggle(300);
 });
+
+// Обработка кликов по ссылкам в навигации
+$('nav a').click(function() {
+    $('html, body').animate({
+        scrollTop : $($(this).attr('href')).offset().top
+    }, 500);
+});
+
+// Кнопка вверх
+$('.arrow-up').click(function() {
+    $('html, body').animate({
+        scrollTop : $('#top').offset().top
+    }, 500);
+});
